@@ -77,9 +77,9 @@ a:hover {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 280px;
   align-items: center;
-  gap: 54px;
-  min-height: 560px;
-  padding: 78px 0 84px;
+  gap: 48px;
+  min-height: 0;
+  padding: 56px 0 40px;
 }
 
 .hero-copy {
@@ -120,7 +120,7 @@ h1 span {
 
 .lead {
   max-width: 720px;
-  margin: 22px 0 0;
+  margin: 18px 0 0;
   color: #394447;
   font-size: 17px;
   line-height: 1.58;
@@ -130,7 +130,7 @@ h1 span {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 28px;
+  margin-top: 20px;
   min-width: 0;
 }
 
@@ -160,7 +160,7 @@ h1 span {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 28px;
+  margin-top: 18px;
   min-width: 0;
 }
 
@@ -180,7 +180,7 @@ h1 span {
 .profile img {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1;
   object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -196,7 +196,7 @@ h1 span {
 }
 
 .section {
-  padding: 54px 0;
+  padding: 36px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -205,7 +205,7 @@ h1 span {
   grid-template-columns: 220px minmax(0, 1fr);
   gap: 28px;
   align-items: baseline;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 
 .section-heading h2 {
@@ -399,11 +399,12 @@ h1 span {
 
   .hero {
     min-height: auto;
-    padding-top: 48px;
+    padding: 34px 0 26px;
   }
 
   .profile {
-    width: min(300px, 100%);
+    width: min(220px, 64%);
+    margin-top: 10px;
   }
 
   .interest-grid,
@@ -437,11 +438,12 @@ h1 span {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .lead {
     font-size: 16px;
+    line-height: 1.5;
   }
 
   .contact-row a {
@@ -452,6 +454,18 @@ h1 span {
   .contact-row {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero {
+    padding: 28px 0 22px;
+  }
+
+  .section {
+    padding: 26px 0;
+  }
+
+  .interest-grid article {
+    padding: 16px;
   }
 
   .timeline-item {
