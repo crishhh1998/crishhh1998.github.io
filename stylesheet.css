@@ -292,10 +292,10 @@ h1 span {
 
 .publication {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: 22px;
-  padding: 18px;
-  align-items: stretch;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 18px;
+  padding: 16px;
+  align-items: start;
   overflow: hidden;
 }
 
@@ -318,7 +318,8 @@ h1 span {
 .pub-image {
   display: grid;
   place-items: center;
-  min-height: 100%;
+  width: 150px;
+  height: 96px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -327,14 +328,14 @@ h1 span {
 
 .pub-image img {
   display: block;
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
-  min-height: 150px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  min-height: 0;
   object-fit: contain;
 }
 
 .publication h3 {
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .authors {
@@ -452,8 +453,13 @@ h1 span {
     grid-template-columns: 1fr;
   }
 
+  .pub-image {
+    width: 150px;
+    height: 96px;
+  }
+
   .pub-image img {
-    max-height: 220px;
+    max-height: none;
   }
 }
 
