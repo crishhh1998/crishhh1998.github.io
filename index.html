@@ -29,6 +29,12 @@
             visual generative models, especially diffusion and flow-based image/video generation,
             human-centric video generation, and efficient generative model training and inference.
           </p>
+          <p class="advisor-line">
+            I am advised by
+            <a href="https://siyuzhu-fudan.github.io/" target="_blank" rel="noopener">Prof. Siyu Zhu (朱思语)</a>
+            and
+            <a href="https://jingdongwang2017.github.io/" target="_blank" rel="noopener">Prof. Jingdong Wang (王井东)</a>.
+          </p>
 
           <div class="contact-row" aria-label="Profile links">
             <a href="mailto:crystallee0418@gmail.com">Email</a>
@@ -38,7 +44,6 @@
           </div>
 
           <div class="quick-facts">
-            <span>Fudan University</span>
             <span>Computer Vision</span>
             <span>Generative AI</span>
             <span>Diffusion &amp; Flow Models</span>
@@ -47,7 +52,6 @@
 
         <figure class="profile">
           <img src="assets/profile.jpg?v=original-20260529" alt="Hui Li profile photo">
-          <figcaption>Ph.D. candidate, Fudan University</figcaption>
         </figure>
       </section>
 
@@ -79,8 +83,11 @@
 
         <div class="publication-list">
           <article class="publication">
-            <div class="pub-label">Human Video</div>
+            <div class="pub-image">
+              <img src="assets/work/openhumanvid.png" alt="OpenHumanVid paper pipeline figure">
+            </div>
             <div class="pub-body">
+              <div class="pub-label">Human Video</div>
               <h3>OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation</h3>
               <p class="authors"><strong>Hui Li</strong>*, Mingwang Xu*, Yun Zhan, Shan Mu, Jiaye Li, Kaihui Cheng, Yuxuan Chen, Tan Chen, Mao Ye, Jingdong Wang, Siyu Zhu</p>
               <p class="venue">CVPR 2025 Highlight</p>
@@ -89,16 +96,18 @@
                 plus a filtering pipeline for improving video diffusion model training.
               </p>
               <div class="links">
-                <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_OpenHumanVid_A_Large-Scale_High-Quality_Dataset_for_Enhancing_Human-Centric_Video_Generation_CVPR_2025_paper.html" target="_blank" rel="noopener">Paper</a>
-                <a href="https://arxiv.org/abs/2412.00115" target="_blank" rel="noopener">arXiv</a>
-                <a href="https://github.com/crystallee-ai/OpenHumanVid" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://arxiv.org/abs/2412.00115" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/fudan-generative-vision/OpenHumanVid" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="publication">
-            <div class="pub-label">Flow Models</div>
+            <div class="pub-image">
+              <img src="assets/work/ppflow.png" alt="PPFlow paper teaser figure">
+            </div>
             <div class="pub-body">
+              <div class="pub-label">Flow Models</div>
               <h3>Pyramidal Patchification Flow for Visual Generation</h3>
               <p class="authors"><strong>Hui Li</strong>, Baoyou Chen, Liwei Zhang, Jiaye Li, Jingdong Wang, Siyu Zhu</p>
               <p class="venue">ICLR 2026</p>
@@ -107,14 +116,18 @@
                 efficiency while preserving or improving visual quality.
               </p>
               <div class="links">
-                <a href="https://openreview.net/forum?id=hRfJjmsibX" target="_blank" rel="noopener">OpenReview</a>
+                <a href="https://arxiv.org/abs/2506.23543" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/fudan-generative-vision/PPFlow" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="publication">
-            <div class="pub-label">Training</div>
+            <div class="pub-image">
+              <img src="assets/work/mixflow.png" alt="MixFlow paper method figure">
+            </div>
             <div class="pub-body">
+              <div class="pub-label">Training</div>
               <h3>MixFlow Training: Alleviating Exposure Bias with Slowed Interpolation Mixture</h3>
               <p class="authors"><strong>Hui Li</strong>, Jiayue Lyu, Fuyun Wang, Kaihui Cheng, Siyu Zhu, Jingdong Wang</p>
               <p class="venue">CVPR 2026</p>
@@ -123,15 +136,38 @@
                 by mixing slowed interpolation states into model training.
               </p>
               <div class="links">
-                <a href="https://mixflowgen.github.io/" target="_blank" rel="noopener">Project</a>
-                <a href="https://arxiv.org/abs/2512.19311" target="_blank" rel="noopener">arXiv</a>
+                <a href="https://arxiv.org/abs/2512.19311" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/fudan-generative-vision/MixFlow" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="publication">
-            <div class="pub-label">Portrait Animation</div>
+            <div class="pub-image">
+              <img src="assets/work/hallo3.jpg" alt="Hallo3 paper teaser image">
+            </div>
             <div class="pub-body">
+              <div class="pub-label">Portrait Animation</div>
+              <h3>Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Video Diffusion Transformer</h3>
+              <p class="authors">Jiahao Cui, <strong>Hui Li</strong>, Yun Zhan, Hanlin Shang, Kaihui Cheng, Yuqi Ma, Shan Mu, Hang Zhou, Jingdong Wang, Siyu Zhu</p>
+              <p class="venue">CVPR 2025</p>
+              <p>
+                A portrait animation framework built on pretrained video diffusion transformers for more dynamic,
+                realistic talking videos with natural backgrounds and motion.
+              </p>
+              <div class="links">
+                <a href="https://arxiv.org/abs/2412.00733" target="_blank" rel="noopener">Paper</a>
+                <a href="https://github.com/fudan-generative-vision/hallo3" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-image">
+              <img src="assets/work/hallo2.jpg" alt="Hallo2 paper teaser image">
+            </div>
+            <div class="pub-body">
+              <div class="pub-label">Portrait Animation</div>
               <h3>Hallo2: Long-Duration and High-Resolution Audio-Driven Portrait Image Animation</h3>
               <p class="authors">Jiahao Cui*, <strong>Hui Li</strong>*, Yao Yao, Hao Zhu, Hanlin Shang, Kaihui Cheng, Hang Zhou, Siyu Zhu, Jingdong Wang</p>
               <p class="venue">ICLR 2025</p>
@@ -140,16 +176,18 @@
                 temporally consistent videos.
               </p>
               <div class="links">
-                <a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/e4be7e9867ef163563f4a5e90cec478f-Abstract-Conference.html" target="_blank" rel="noopener">Paper</a>
-                <a href="https://fudan-generative-vision.github.io/hallo2" target="_blank" rel="noopener">Project</a>
+                <a href="https://arxiv.org/abs/2410.07718" target="_blank" rel="noopener">Paper</a>
                 <a href="https://github.com/fudan-generative-vision/hallo2" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
 
           <article class="publication">
-            <div class="pub-label">Portrait Animation</div>
+            <div class="pub-image">
+              <img src="assets/work/hallo.jpg" alt="Hallo paper visual result figure">
+            </div>
             <div class="pub-body">
+              <div class="pub-label">Portrait Animation</div>
               <h3>Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation</h3>
               <p class="authors">Mingwang Xu*, <strong>Hui Li</strong>*, Qingkun Su*, Hanlin Shang, Liwei Zhang, Ce Liu, Jingdong Wang, Yao Yao, Siyu Zhu</p>
               <p class="venue">arXiv 2024</p>
@@ -158,26 +196,8 @@
                 for lip, expression, and pose control.
               </p>
               <div class="links">
-                <a href="https://arxiv.org/abs/2406.08801" target="_blank" rel="noopener">arXiv</a>
-                <a href="https://fudan-generative-vision.github.io/hallo/" target="_blank" rel="noopener">Project</a>
+                <a href="https://arxiv.org/abs/2406.08801" target="_blank" rel="noopener">Paper</a>
                 <a href="https://github.com/fudan-generative-vision/hallo" target="_blank" rel="noopener">GitHub</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication">
-            <div class="pub-label">Vision</div>
-            <div class="pub-body">
-              <h3>FD-CAM: Improving Faithfulness and Discriminability of Visual Explanation for CNNs</h3>
-              <p class="authors"><strong>Hui Li</strong>, Zihao Li, Rui Ma, Tieru Wu</p>
-              <p class="venue">ICPR 2022 Oral</p>
-              <p>
-                A class activation map weighting strategy for improving both faithfulness and discriminability
-                in visual explanations for convolutional neural networks.
-              </p>
-              <div class="links">
-                <a href="https://arxiv.org/abs/2206.08792" target="_blank" rel="noopener">arXiv</a>
-                <a href="https://github.com/crishhh1998/FD-CAM" target="_blank" rel="noopener">GitHub</a>
               </div>
             </div>
           </article>
