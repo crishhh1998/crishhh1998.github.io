@@ -120,10 +120,10 @@ h1 span {
 
 .lead {
   max-width: 720px;
-  margin: 26px 0 0;
+  margin: 22px 0 0;
   color: #394447;
-  font-size: 20px;
-  line-height: 1.62;
+  font-size: 17px;
+  line-height: 1.58;
 }
 
 .contact-row {
@@ -180,7 +180,7 @@ h1 span {
 .profile img {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -441,7 +441,7 @@ h1 span {
   }
 
   .lead {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .contact-row a {
