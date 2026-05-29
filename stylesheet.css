@@ -348,6 +348,12 @@ h1 span {
   font-weight: 850;
 }
 
+.pub-stars {
+  color: var(--teal-dark);
+  font-size: 14px;
+  font-weight: 850;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
