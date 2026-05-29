@@ -352,13 +352,14 @@ h1 span {
   color: var(--teal-dark);
   font-size: 14px;
   font-weight: 850;
+  margin-bottom: 4px;
 }
 
 .links {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 14px;
+  margin-top: 6px;
 }
 
 .links a {
